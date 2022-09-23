@@ -28,7 +28,7 @@ export default function Noti(props) {
         className={checked ? "noti-containerChecked": "noti-containerNoChecked"}
     >
         <div className='avatarAndNoti'>
-            <img src={avatar} alt={`${userName}'s avatar`} className='avatar' />
+            <img src={props.avatar} alt={`${userName}'s avatar`} className='avatar' />
             <div>
                 <div className='noti-line'>
                     <p>
@@ -48,7 +48,7 @@ export default function Noti(props) {
             </div>
         </div>
         {
-            image && <img srcSet={image} alt="img" className='img' />
+            image && <img srcSet={image} alt="img" className='img'/>
         }
     </section>
   )
