@@ -1,6 +1,6 @@
 [
     {
-        "avatar" : "./src/assets/images/avatar-mark-webber.webp",
+        "avatar" : "src/assets/images/avatar-mark-webber.webp",
         "userName" : "Mark Webber",
         "event" : "react",
         "time" : "1m ago",
