@@ -28,7 +28,7 @@ export default function Noti(props) {
         className={checked ? "noti-containerChecked": "noti-containerNoChecked"}
     >
         <div className='avatarAndNoti'>
-            <img src={avatar} alt="Mark's avatar" className='avatar' />
+            <img src={avatar} alt={`${userName}'s avatar`} className='avatar' />
             <div>
                 <div className='noti-line'>
                     <p>
