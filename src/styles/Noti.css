@@ -1,0 +1,85 @@
+:root {
+    /* Primary */
+    --Blue--: hsl(219, 85%, 26%);
+    --Red--: hsl(1, 90%, 64%);
+    /* Neutral */
+    --Very-light-grayish-blue--: hsl(210, 60%, 98%);
+    --White--: hsl(0, 0%, 100%);
+    --Light-grayish-blue-1--: hsl(211, 68%, 94%);
+    --Light-grayish-blue-2--: hsl(205, 33%, 90%);
+    --Grayish-blue--: hsl(219, 14%, 63%);
+    --Dark-grayish-blue--: hsl(219, 12%, 42%);
+    --Very-dark-blue--: hsl(224, 21%, 14%);
+}
+
+.noti-containerChecked, .noti-containerNoChecked {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    text-align: left;
+    padding: 15px 20px;
+    border-radius: 7px;
+    margin: 15px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.noti-containerNoChecked {
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: var(--Very-light-grayish-blue--);
+}
+
+.avatarAndNoti {
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    width: 50px;
+    margin: 0px 20px 0px 0px;
+}
+
+.userName {
+    color: var(--Very-dark-blue--);
+}
+
+.eventTarget {
+    color: var(--Dark-grayish-blue--);
+}
+
+.uncheckedDot {
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+    background-color: var(--Red--);
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+}
+
+.img {
+    width: 45px;
+}
+
+.message {
+    margin: 20px 0px;
+    border: 1px solid var(--Light-grayish-blue-2-- );
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.message:hover {
+    background-color: var(--Light-grayish-blue-1--);
+}
+
+strong:hover, button:hover {
+    color: var(--Blue--);
+}
+
+@media screen and (max-width: 500px) {
+    .noti-containerChecked, .noti-containerNoChecked {
+        margin: 0px;
+    }
+    .noti-containerNoChecked {
+        box-shadow: none;
+    }
+}

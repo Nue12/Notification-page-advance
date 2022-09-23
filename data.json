@@ -1,0 +1,72 @@
+[
+    {
+        "avatar" : "/src/assets/images/avatar-mark-webber.webp",
+        "userName" : "Mark Webber",
+        "event" : "react",
+        "time" : "1m ago",
+        "eventTarget" : "My first tournament today!",
+        "message" : null,
+        "checked" : false,
+        "image" : null
+    },
+    {
+        "avatar" : "/src/assets/images/avatar-angela-gray.webp",
+        "userName" : "Angela Gray",
+        "event" : "follow",
+        "time" : "5m ago",
+        "eventTarget" : null,
+        "message" : null,
+        "checked" : false,
+        "image" : null
+    },
+    {
+        "avatar" : "/src/assets/images/avatar-jacob-thompson.webp",
+        "userName" : "Jacob Thompson",
+        "event" : "join group",
+        "time" : "1 day ago",
+        "eventTarget" : "Chess Club",
+        "message" : null,
+        "checked" : false,
+        "image" : null
+    },
+    {
+        "avatar" : "/src/assets/images/avatar-rizky-hasanuddin.webp",
+        "userName" : "Rizky Hasanuddin",
+        "event" : "sent private message",
+        "time" : "5 days ago",
+        "eventTarget" : null,
+        "message" : "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "checked" : true,
+        "image" : null
+    },
+    {
+        "avatar" : "/src/assets/images/avatar-kimberly-smith.webp",
+        "userName" : "Kimberly Smith",
+        "event" : "comment",
+        "time" : "1 week ago",
+        "eventTarget" : null,
+        "message" : null,
+        "checked" : true,
+        "image" : "/src/assets/images/image-chess.webp"
+    },
+    {
+        "avatar" : "/src/assets/images/avatar-nathan-peterson.webp",
+        "userName" : "Nathan Peterson",
+        "event" : "react",
+        "time" : "1 week ago",
+        "eventTarget" : "5 end-game strategies to increase your win rate",
+        "message" : null,
+        "checked" : true,
+        "image" : null
+    },
+    {
+        "avatar" : "/src/assets/images/avatar-anna-kim.webp",
+        "userName" : "Anna Kim",
+        "event" : "leave",
+        "time" : "2 weeks ago",
+        "eventTarget" : "Chess Club",
+        "message" : null,
+        "checked" : true,
+        "image" : null
+    }
+]
