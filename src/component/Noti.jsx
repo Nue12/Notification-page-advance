@@ -48,7 +48,7 @@ export default function Noti(props) {
             </div>
         </div>
         {
-            image && <img src={image} alt="img" className='img' />
+            image && <img srcSet={image} alt="img" className='img' />
         }
     </section>
   )
