@@ -20,5 +20,5 @@
 
 ### Links
 
-- Solution URL: [This is solution URL](https://your-solution-url.com)
-- Live Site URL: [This is live site URL](https://your-live-site-url.com)
+- Solution URL: [This is solution URL](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC/hub/notificationpagemain-using-html-css-javascript-react-YtYpuazkDT)
+- Live Site URL: [This is live site URL](https://nue-notification-page-advance.netlify.app/)
